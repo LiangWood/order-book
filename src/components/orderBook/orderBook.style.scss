@@ -1,0 +1,32 @@
+.Ob {
+    position: relative;
+    height: 100%;
+    max-width: 14em;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #929292;
+    background-color: #131B29;
+
+    &__header {
+        // position: absolute;
+        // top: 0;
+        width: 100%;
+
+        &__title {
+            font-weight: 600;
+            padding: 0.3rem;
+        }
+    
+        &__quoteTable {
+            padding: 0 0.3rem;
+            font-size: 0.5rem;
+            color: #8698aa;
+            display: flex;
+        }
+    
+        &__quoteTable> * {
+            flex-basis: 50%;
+        }
+    }
+}
